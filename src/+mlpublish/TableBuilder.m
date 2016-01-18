@@ -75,7 +75,7 @@ classdef TableBuilder
  			%  ... 
 
             p = inputParser;
-            addOptional(p, 'StudyPath', pwd, @(x) lexist(x, 'dir'));
+            addOptional(p, 'StudyPath', pwd, @isdir);
             parse(p, varargin{:});
             
             this.studyPath = p.Results.StudyPath;
