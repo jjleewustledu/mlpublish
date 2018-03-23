@@ -79,7 +79,7 @@ classdef TableBuilder
             parse(p, varargin{:});
             
             this.studyPath = p.Results.StudyPath;
-            load(fullfile(this.studyPath, 'matlab_2014feb26_1600.mat'));
+            load(fullfile(this.studyPath, 'matlab_2017oct19_2113.mat'));
            
             this.oefRatio     = ds.oefRatio;
             this.oefRatioStd  = ds_std.oefRatio;
