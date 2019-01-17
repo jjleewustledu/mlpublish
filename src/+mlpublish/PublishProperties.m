@@ -8,7 +8,6 @@ classdef PublishProperties
     %
     %  Created by John Lee on 2009-04-02.
     %  Copyright (c) 2009 Washington University School of Medicine.  All rights reserved.
-    %  Report bugs to <email="bug.jjlee.wustl.edu@gmail.com"/>.
     %
     properties	
         

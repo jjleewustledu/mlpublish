@@ -112,7 +112,6 @@ classdef ScatterPublisher
     %
     %  Created by John Lee on 2008-06-28.
     %  Copyright (c) 2008 Washington University School of Medicine.  All rights reserved.
-    %  Report bugs to <email = "bug.jjlee.wustl.edu@gmail.com"/>.
     %    
     properties
         mrimgs             = {};
